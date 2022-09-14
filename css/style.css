@@ -1,0 +1,103 @@
+html {
+  font-size: 62.5%;
+  background-image: url("https://pipocasclub.com.br/wp-content/uploads/2019/10/netflix-3.jpg");
+  height: 400px;
+  width: 100%;
+}
+
+body {
+  color: #fff;
+  font-size: 1.6rem;
+  background-color: rgba(0, 0, 0, 0.59);
+  font-family: "Poppins", sans-serif;
+}
+
+.container-principal {
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  width: 50%;
+}
+
+.centralizar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal {
+  padding: 6.9rem 3.8rem;
+}
+
+.principal-logo {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.box1 {
+  height: 387px;
+  width: 675px;
+  left: -1009px;
+  top: -183px;
+  border-radius: 3px;
+}
+
+.box2-centralizar {
+  background-image: url("https://p16-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/84428eae99c40b78a6d7dccd6805fc76~c5_720x720.jpeg?x-expires=1659153600&x-signature=NmzstdR5v0cskEIDAtR%2F%2FPFkAAA%3D");
+  max-width: 60rem; /* LARGURA MÁXIMA */
+  max-height: 60rem;
+  overflow: hidden;
+  min-height: 14rem;
+  color: #fff;
+}
+
+.box2-cabeça {
+  background-image: url("https://p16-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/84428eae99c40b78a6d7dccd6805fc76~c5_720x720.jpeg?x-expires=1659153600&x-signature=NmzstdR5v0cskEIDAtR%2F%2FPFkAAA%3D");
+  max-width: 60rem; /* LARGURA MÁXIMA */
+  width: 60.1rem;
+  height: 25rem;
+}
+
+.principal-logo2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.principal-titulo {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.blur {
+  filter: blur(5px);
+  filter: drop-shadow(10px);
+}
+
+.principal-descrição2 {
+  padding: 3rem 1.5rem;
+  color: #fff;
+  min-height: 14rem;
+}
+
+.botão {
+  font-size: 1.6rem;
+  font-weight: 700;
+  width: 100%;
+  height: 6rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.botões {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.box2-centralizar,
+.botão {
+  border-radius: 1rem;
+}
